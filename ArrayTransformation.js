@@ -6,7 +6,7 @@ function arrayTransform(arr1) {
     const max = sortedArr[sortedArr.length - 1].p;
     const min = sortedArr[0].p;
     const output = [];
-    for (let i=min;i<=max;i++) {
+    for (let i = min; i <= max; i++) {
         const obj = {};
         const data = sortedArr.find((ele) => ele.p === i);
         if (data) {

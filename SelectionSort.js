@@ -1,7 +1,7 @@
 function selectionSort(arr1) {
-    for (let i=0; i<arr1.length; i++) {
+    for (let i = 0; i < arr1.length; i++) {
         let min = i;
-        for (let j=i+1; j<arr1.length; j++) {
+        for (let j = i + 1; j < arr1.length; j++) {
             if (arr1[j] < arr1[min]) {
                 min = j;
             }
@@ -14,4 +14,4 @@ function selectionSort(arr1) {
     }
     return arr1;
 }
-console.log(selectionSort([3,4,1,7,8,2,9]));
+console.log(selectionSort([3, 4, 1, 7, 8, 2, 9]));
